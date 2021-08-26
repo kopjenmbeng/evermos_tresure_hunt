@@ -61,9 +61,6 @@ func main() {
 				// fmt.Printf("%s",pr)
 			}
 			// fmt.Println()
-
-			
-			
 		}
 		// fmt.Println()
 	}
