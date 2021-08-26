@@ -7,6 +7,7 @@ func main() {
 	var obstacle []string
 
 	fmt.Println("...first grid initiate....")
+	// first initiate and collect obstacle
 	for y := 5; y >=0; y-- {
 		for x := 0; x <= 7; x++ {
 			if y==5 || y==0{
@@ -65,11 +66,13 @@ func main() {
 		// fmt.Println()
 	}
 
+	// show output a list of probable coordinate points where the treasure might be located
 	fmt.Println("...output a list of probable coordinate points where the treasure might be located....")
 	for _,i:= range treasure_posision{
 		fmt.Println(i)
 	}
 
+	// print final grid with treasure posibility located .
 	fmt.Println("...final grid where the treasure might be located....")
 	for y := 5; y >=0; y-- {
 		for x := 0; x <= 7; x++ {
